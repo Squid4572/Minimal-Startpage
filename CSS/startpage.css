@@ -17,20 +17,22 @@
 }
 	
 header {
-	color: #757575;
+	color: #0d00fa;
 	font-family: 'SpaceMono-Bold';
 	font-size: 50px;
-    -webkit-text-fill-color: #757575;
+    -webkit-text-fill-color: #aa0d0d;
 	z-index:1;
 }
 
+/*Clock*/
 p1 {
     font-family: 'SpaceMono-Regular';
-    -webkit-text-fill-color: #757575;
+    -webkit-text-fill-color: #C5B3FD;
     font-size: 17px;
 	z-index:1;
 }
 
+/*Link Dividers*/
 p2 {
     font-family: 'SpaceMono-Regular';
     -webkit-text-fill-color: #757575;
@@ -38,8 +40,9 @@ p2 {
 	z-index:1;
 }
 
+/*Search Box*/
 form {
-    background-color: #363636;
+    background-color: #1C1B22;
     width: 25%;
     height: 35px;
     border-radius: 5px;
@@ -52,7 +55,7 @@ form {
 input {
     background-color: unset;
     font: 16px 'SpaceMono-regular';
-    color: #fff;
+    color: #ff0059;
     height: 100%;
     width: 100%;
     padding: 6px 10px;
@@ -63,7 +66,7 @@ input {
 }
 
 ::placeholder {
-  color: #757575;
+  color: #3700ff;
   opacity: 0.7; 
 }
 
@@ -82,8 +85,9 @@ button {
     height: 10px;
 }
 
+/*Search Box Text Colour*/
 input {
-    color: #B5B5B5;
+    color: #C5B3FD;
 }
 
 .buttontext {
@@ -91,60 +95,42 @@ input {
     font-family: 'SpaceMono-regular';
 }
 
+
+
+/*Button*/
 .button {
 	border: none;
     background: none;
   	color: #757575;
   	padding: 10px;
-  	font-size: 12px;
+  	font-size: 16px;
     align-content: center;
     text-align: center;
     font-family: 'SpaceMono-regular';
 }
 
+
+
+
+
+/*Button Hover*/
 .button:hover {
 	border: none;
     background: none;
-  	color: #B5B5B5;
+  	color: #C5B3FD;
   	padding: 10px;
-  	font-size: 12px;
+  	font-size: 16px;
     align-content: center;
     text-align: center;
     font-family: 'SpaceMono-regular';
 }
 
-.button[id = "twitch"]:hover{
-	border: none;
-    background: none;
-  	color: #b48ead;
-  	padding: 10px;
-  	font-size: 12px;
-    align-content: center;
-    text-align: center;
-    font-family: 'SpaceMono-regular';
-}
 
-.button[id = "youtube"]:hover{
-	border: none;
-    background: none;
-  	color: #bf616a;
-  	padding: 10px;
-  	font-size: 12px;
-    align-content: center;
-    text-align: center;
-    font-family: 'SpaceMono-regular';
-}
 
-.button[id = "twitter"]:hover{
-	border: none;
-    background: none;
-  	color: #81a1c1;
-  	padding: 10px;
-  	font-size: 12px;
-    align-content: center;
-    text-align: center;
-    font-family: 'SpaceMono-regular';
-}
+
+
+
+
 
 a {color: inherit; }
 
