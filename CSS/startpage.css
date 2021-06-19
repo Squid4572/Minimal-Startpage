@@ -20,7 +20,7 @@ header {
 	color: #0d00fa;
 	font-family: 'SpaceMono-Bold';
 	font-size: 50px;
-    -webkit-text-fill-color: #aa0d0d;
+    -webkit-text-fill-color: #ff3a86;
 	z-index:1;
 }
 
@@ -55,7 +55,7 @@ form {
 input {
     background-color: unset;
     font: 16px 'SpaceMono-regular';
-    color: #ff0059;
+    color: #2bff00;
     height: 100%;
     width: 100%;
     padding: 6px 10px;
@@ -87,7 +87,8 @@ button {
 
 /*Search Box Text Colour*/
 input {
-    color: #C5B3FD;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
 }
 
 .buttontext {
